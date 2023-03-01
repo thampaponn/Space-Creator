@@ -1,3 +1,6 @@
+<script>
+
+</script>
 <template>
   <!-- login -->
   <div class="rectangle">
@@ -38,9 +41,6 @@
   </div>
 </template>
 
-<script>
-
-</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -153,6 +153,3 @@ a:active {
   text-decoration: none;
 }
 </style>
-
-<script>
-</script>
