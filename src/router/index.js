@@ -18,6 +18,16 @@ const router = createRouter({
       name: 'mainpage',
       component: () => import('../views/Mainpage.vue')
     },
+    {
+      path: '/forgotpassword',
+      name: 'forgotpassword',
+      component: () => import('../views/ForPassword.vue')
+    },
+    {
+      path: '/history',
+      name: 'history',
+      component: () => import('../views/History.vue')
+    },
   ]
 })
 

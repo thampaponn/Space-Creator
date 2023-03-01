@@ -4,7 +4,7 @@
     <div class="blue-half border-round-left-2xl shadow-5">
       <h1 class="bg-transparent text-white text-center">SPACE CREATOR</h1>
       <div class="bar"></div>
-      <h2 class="bg-transparent text-white text-center">your space, your choice</h2>
+      <h2 class="bg-transparent text-yellow-400 text-center">your space, your choice</h2>
       <center class="bg-transparent">
         <img class="itpic border-round-xl" src="../assets/img/itkmitl.jpeg" alt="">
       </center>
@@ -21,7 +21,7 @@
         <InputText id="username" name="username" type="password" class="p-inputtext-lg shadow-2 mx-7"
           style="width: 80%;" />
         <br><br>
-        <router-link to="/mainpage">
+        <router-link to="/">
           <Button class="absolute text-center justify-content-center text-bold text-2xl mx-7"
             style="width: 76%; height: 12%;background-image: linear-gradient(to right, rgb(3, 8, 16), rgb(35, 87, 165));">Sign
             up</Button><br><br><br><br><br>
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 3%;
   margin-bottom: 4%;
 }
@@ -162,3 +162,6 @@ a:active {
   text-decoration: none;
 }
 </style>
+
+<script>
+</script>
